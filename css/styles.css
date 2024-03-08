@@ -383,11 +383,12 @@ line-height: 1.5;
 /*----/Section styles----*/
 /*----Section footer----*/
 .footer-body {
-    display: flex;
-    align-items: baseline;
+  
+    margin-right: 120px;
 }
 .footer-body-logo {
-    margin-right: 120px;
+    display: flex;
+    align-items: baseline;  
 }
 .logo-footer {
     font-family: "Raleway", sans-serif;
