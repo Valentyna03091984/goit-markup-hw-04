@@ -255,7 +255,7 @@ line-height: 1.5;
     
 }
 .section-our-team {
-    margin-bottom: 8px;
+    
     text-align: left;
     background-color: #F4F4FD;
     padding-top: 120px;
@@ -314,7 +314,7 @@ line-height: 1.5;
 }
 
 .name-portfolio {
-    margin-bottom: 8px;
+    
     text-align: left;
 }
 .portfolio-list {
@@ -330,11 +330,11 @@ line-height: 1.5;
 .portfolio-list-item:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.portfolio-img-overlay-wrapper {
+.portfolio-list-item {
     position: relative;
     overflow: hidden;
 }
-.portfolio-img-overlay-wrapper:hover .portfolio-overlay-text{
+.portfolio-list-item:hover .portfolio-overlay-text{
     transform: translateY(0%);
     
 }
@@ -357,6 +357,7 @@ line-height: 1.5;
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 13px;
 }
 .social-links-list-item {
         width: 40px;
